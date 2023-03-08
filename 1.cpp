@@ -1,11 +1,19 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
-int main(){
-    cout << "Hu tiu bo kho";
+int is_a_prime(int n){
+    if(n == 2 || n == 3) return n;
     
-    cout << endl << "Bun bo hue";
+    for(int i = 2; i <= sqrt(n); i++)
+        if(n % i == 0) return 0;
+        
+    return n;
+}
+
+int main(){
+    cout << is_a_prime(6);
 
     return 0;
 }
