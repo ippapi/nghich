@@ -9,9 +9,8 @@ void inputArray(int *&a, int &n){
     a = new int[1000000];
     
     for(int i = 0; i < n; i++){
-        cin >> a[i];
-    }
 
-}
+lmao
+        
 
 
