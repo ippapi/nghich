@@ -11,6 +11,8 @@ void inputArray(int *&a, int &n){
     for(int i = 0; i < n; i++){
 
 lmao
+    
+di an lau chay di
         
 
 
